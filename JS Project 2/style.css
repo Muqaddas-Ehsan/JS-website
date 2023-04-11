@@ -1,0 +1,173 @@
+
+/* ================================== Home page slider images ==================================== */
+
+.carousel-item img{
+    border-radius: 0 0 50% 50%/0 0 100% 100%;
+    transform: scaleX(1.5);
+    height: 550px; 
+    width: 1500px;
+}
+/* ================================= Home page slider heading =================================== */
+.carousel-item .heading h1{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+}
+/* ================================= Home page slider peragraph =================================== */
+.carousel-item .paragraph p{
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+}
+/* ================================= Home page slider button =================================== */
+.carousel-item button{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+/* ================================= Home page image 1=================================== */
+.img1{
+    overflow: hidden;
+}
+
+.img1 img:hover{
+    -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+  transition: transform 1.3s;
+}
+/* ================================= Home page image 2 =================================== */
+.img2{
+    overflow: hidden;
+}
+
+.img2 img:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    transition: transform 1.3s;
+}
+/* ================================= Home page image 3 =================================== */
+.img3{
+    overflow: hidden;
+}
+
+.img3 img:hover{
+    -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+  transition: transform 1.3s;
+}
+/* ================================= Home page image 4 =================================== */
+.img4{
+    overflow: hidden;
+}
+
+.img4 img:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    transition: transform 1.3s;
+}
+/* ================================= About page slider img =================================== */
+.carousel-item .img3 img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+}
+
+.card1 h3:hover{
+    color: blue;
+}
+
+.card1 .card{
+    position: absolute;
+     top:85% ;
+     right: 5%;
+     left: 5%;
+    /* transform: translate(-50%, -50%); */
+}
+
+/* ================================== services page card =================================== */
+.card2 .card:hover{
+    z-index: 1;
+    transform: scale(1.05);
+}
+
+.card3 .card:hover{
+    z-index: 1;
+    transform: scale(1.10);
+}
+
+/* .shadow::before{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-color: red;
+    z-index: -1;
+} */
+
+/* ====================== Gallery Image 1,Image 5========================= */
+
+.card .content1{
+    transition: all 0.5s;
+    position: absolute;
+    top: -100%;
+    left: 0;
+}
+.card:hover .content1{
+    top: 0;
+}
+
+/* ========================== Gallery Image 2,Image 6 ===================== */
+
+.card .img5{
+    transform:rotateY(0);
+    transition: all 0.5s ease-in-out 0s;
+}
+.card:hover .img5{
+    transform: rotateY(-90deg);
+}
+
+.card .content2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotateY(90deg);
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.card:hover .content2{
+    transform: rotateY(0);
+}
+
+/*============================ gallery image 3,Image 7 ===============================*/
+
+.card .content-3{
+    transition: all 0.5s;
+    position: absolute;
+    top: 0;
+    left:100%;
+}
+.card:hover .content-3{
+    left: 0;
+}
+
+/* ============================== gallery image 4,image 8 =========================== */
+
+.img-6{
+    overflow: hidden;
+}
+
+.img-6 img:hover{
+    -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+  transition: transform 1.3s;
+  
+}
